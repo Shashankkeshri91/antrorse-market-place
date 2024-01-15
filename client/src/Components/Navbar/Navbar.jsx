@@ -100,7 +100,10 @@ const Navbar = () => {
             <button className="text-white text-lg lg:block px-2 hidden ">
             <Link to='/login'>login &#8594;</Link>
             </button>
-            <button className="bg-gradient-to-r from-red-600 to-red-500  text-white  py-1 px-4 rounded-full  items-center gap-3 lg:block hidden">Become a seller</button>
+
+            <button className="bg-gradient-to-r from-red-600 to-red-500  text-white  py-1 px-4 rounded-full  items-center gap-3 lg:block hidden">
+            <Link to='/sellersignup'>Become a seller</Link>
+            </button>
 
            
           </div>
